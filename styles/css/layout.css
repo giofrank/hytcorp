@@ -1,0 +1,287 @@
+body{
+	background: #7B3025;
+	color: #968F91;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+
+div.user{
+	background: #FFF;
+	height: 60px;
+	margin: 0;
+	width: 100%;
+}
+	div.photo, div.name, div.menu-user{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	div.photo{
+		background: url(../img/profile.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		border-right: 2px solid #9A1919;
+		height: 100%;
+		margin: 0;
+		width: 20%;
+	}
+	div.name{
+		border-radius: 5px;
+		color: #fff;
+		height: 30px;
+		width: 65%;
+	}
+		div.name p{
+			color: #968F91;
+			font-size: 1em;
+			margin: 5px;
+			text-align: center;
+		}
+	div.menu-user{
+		background: #FFF;
+		border-right: 1px solid #9A1919;
+		height: 100%;
+		float: right;
+		font-size: 2em;
+		width: 10%;
+	}
+		div.menu-user i{
+			cursor: pointer;
+			margin: .6em 0 0 0;
+		}
+			div.menu-user i:hover{
+			color:#900F0F;
+			}
+		div.sesion{
+			background: #fff;
+			border: 1px solid #9A1919;
+			display: none;
+			left: 4.1em;
+			position: absolute;
+			top: 3.5em;
+			width: 20%;
+		}
+			.skin{
+				color:#9A1919;
+				font-size: 2em;
+				left: 94.5%;
+				top: -.4em;
+				position: absolute;
+			}
+			
+			.task{
+				background: #f5f5f5;
+				border: 1px solid #f5f5f5;
+				border-radius: 5px;
+				color:#06207D;
+				cursor: pointer;
+				float: left;
+				font-size: 2em;
+				margin: 8px 0 5px 10%;
+				padding: 0;
+				text-align: center;
+				width: 20%;
+			}
+			.task:hover{
+				background: #f5f5f5;
+				color:#900F0F;
+			}
+				.task p{
+					font-size: .5em;
+					padding: 0;
+				}
+
+			article.sesion-works{
+				height: auto;
+				width: 100%;
+			}
+			.logout{
+				background: #FFF;
+				border-top: 1px solid #900F0F;
+				color:#900F0F;
+				cursor: pointer;
+				display: block;
+				font-size: 1.2em;
+				overflow: hidden;
+				padding: .5em;
+				text-align: center;
+				width: 100%;
+			}
+			.logout i{
+				margin:0 0 0 1rem;
+			}
+			.logout:hover{
+				background: #900F0F;
+				border-bottom: 1px solid #CCC;
+				border-left: 1px solid #CCC;
+				border-right: 1px solid #CCC;
+				color:#FFF;
+				text-decoration: none;
+			}
+
+	
+div.calendary{
+	width: 100%;
+}
+	.table-calendary{
+		border: 1px solid #900F0F;
+		height: 40%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		width:100%;
+	}
+	.table-calendary tr th, .table-calendary tr th{
+		text-align: center;
+	}
+	.table-calendary tr td:hover{
+		background: #FFF;
+		color: #06207D;
+	}
+div.cont-menu{
+	height: auto;
+	width: 100%;
+}
+	.module, .module:active{
+		background: #900F0F;
+		border: none;
+		border-bottom:1px solid #9A1919;
+		color:#E46767;
+		cursor: pointer;
+		display: block;
+		padding: 1em 0 1em 0;
+		text-align: center;
+		text-decoration: none;
+		width: 100%;
+	}
+	.module:hover{
+		background: #1B4880;
+		border-bottom:1px solid #CCC;
+		color:#CCC;
+	}
+		div.content-menu{
+			background: #C3B4AD;
+			display: none;
+			margin:0 0 0 5%;
+			width: 90%;
+		}
+		.sub-menu{
+			border: none;
+			border-bottom: 1px solid #A9A1A1;
+			color: #9A1919;
+			cursor: pointer;
+			display: block;
+			padding: 1em 0 1em 0;
+			text-align: center;
+			text-decoration: none;
+		}
+			.sub-menu:hover{
+				background: rgba(179,5,5,.62);
+				border-bottom:1px solid #9A1919;
+				color:#ddd
+			}
+nav.navigation{
+	background: #7B3025;
+	height: 100%;
+	float: left;
+	width:25%;
+}
+
+section.container-module{
+	background: #ccc;
+	height: 1000px;
+	float: left;
+	width: 75%;
+}
+div.log{ 
+		background: url(../img/logotipohyt.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 59px;
+		width: 140px;
+		display: inline-block;
+		vertical-align: middle;
+		float: right;
+	}
+	header.cont-head{
+		background: #fff;
+		margin: 0;
+		padding: 1em .5em;
+		width: 100%;
+		overflow: hidden;
+	}
+		header.cont-head h4{
+			color:#D80000;
+			float: right;
+			margin: 0 15px 0 0;
+			padding: 0;
+		}
+	section.views{
+		background: #FFF;
+		margin:.5% auto;
+		overflow: hidden;
+		padding: .5em 0;
+		width:99%;
+	}
+	.form-registro{
+		overflow: hidden;
+		padding-bottom: 1em;
+	}
+	.panel-primary .form-group .col-lg-9{
+		margin-top:1em;
+	}
+	.table-list{
+		padding: 2em;
+	}
+	.header-tab{
+		background: #52BD82;
+		color: #FFF;
+	}
+	.sin-stock{
+		background: #FFB2B2;
+	}
+	.con-stock{
+		background: #BCFFBF;
+	}
+	.medio-stock{
+		background: #F7FF8B;
+	}
+	.header-login{
+    	background: #000;
+    	border-top: 4px solid #CC2222;
+    	padding: 1em 2em 1em 2em;
+
+	}
+	.demo{
+		margin: .5em 0 0 0;
+	}
+	.panel-almacenes{
+		background: #66C176;
+	}
+	.panel-orden{
+		background:#33465F;
+	}
+	.panel-personal{
+		background: #8FC5FF;
+	}
+	.panel-inventario{
+		background: #ECEA79;
+	}
+	.panel-articulos{
+		background: #F9BE72;
+	}
+	.panel-solicitud{
+		background: #673333;
+	}
+	.content-articles{
+		background: rgba(0,0,0,.1);
+		height: 200px;
+		width: 100%;
+	}
+	.content-articles .col-lg-12{
+		border-bottom: 1px solid #b1b1b1;
+		margin: 1em 0 0 0;
+	}
+	.content-articles .col-lg-12 a{
+		padding: 1em;
+	}

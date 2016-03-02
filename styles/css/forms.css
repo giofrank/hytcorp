@@ -1,0 +1,62 @@
+.btn-btn{
+	border: none;
+	border-radius: .3em;
+	color: #FFF;
+	padding: .8em 0;
+	width: 100%;
+}
+	.btn-btn:hover{
+		background-color: #166871;
+	}
+.btn-guardar{
+	background-color: #167159;
+}
+	.btn-btn:hover{
+		background-color: #166871;
+	}
+
+.btn-cancelar{
+	background-color: #AF2A0A;
+}
+	.btn-cancelar:hover{
+		background-color: #B73212;
+	}
+
+.cabecera{
+		background: #167159;
+	    color: #CCC;
+    	margin: 0 0 1em 0;
+		overflow: hidden;
+		padding: 1em;
+		width: 100%;
+}
+	.cabecera span:hover{
+		color: #FFF;
+	}
+.form-guardar{
+	border: 1px solid #CCC;
+	overflow: hidden;
+}
+.nuevo{
+    background: #167159;
+    border-radius: .3em;
+    border: 1px solid #489463;
+    border: none;
+    color: #FFF;
+    float: right;
+    padding: .5em;
+}
+	.nuevo:hover{
+	    background:#FFF ;
+	    color:#167159;
+	}
+.panel-heading{
+	background: #1B4880;
+	overflow: hidden;
+
+}
+	.panel-heading h4{
+    	color: #FFF;
+		float: left;
+		padding: 0;
+	}
